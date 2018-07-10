@@ -18,7 +18,6 @@ exports.GetPlaces = (req, res) => {
 
   rp(options.path)
   .then(result => {
-    
     res.send(result)
   })
 }
